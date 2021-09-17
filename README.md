@@ -36,7 +36,7 @@ A continuación, vamos a definir los objetivos planteados en el informe, de acue
 
 2. MARCO TEÓRICO 
 
-INTERNET DE LAS COSAS
+                                                                        INTERNET DE LAS COSAS
 
 En la investigación se conoce el origen de este término que aparece en el año 1999 por Kevin Asthon quien estaba realizando investigaciones en el campo RFID y dio a conocer esta idea en una conferencia. En 2005 la ITU comenzó a realizar un estudio sobre el tema y en 2009 este término se convertiría en el título de todo, por la conexión de las cosas y ejecución de redes dinámicas con conectividad desde cualquier momento y lugar, generando facilidades en todos los campos desde Salud, Smart home, Smart city, oficina, automóviles, logística, navegación, medio ambiente, farmacéutica, agricultura y ganadería entre otros, con uso de tecnologías basadas en radiofrecuencia como es el mismo RFID, redes inalámbricas de sensores como WSN, uso de redes de área personal, redes Wlan en conjunto con tecnologías como el uso de la nube, big data, desde luego la cantidad de dispositivos aumenta, así que de tal modo aparece el protocolo ipv6 con 128 bits a diferencia de ipv4 que carece de 32 bits, permitiendo así lograr más conectividad de dispositivos en las redes y hacia internet todo esto administrado por IANA, encargada de la coordinación mundial de los sistemas de direccionamiento del protocolo de internet.
 
@@ -56,7 +56,7 @@ A continuación de manera práctica vamos a explicar el funcionamiento de una re
 
 3.2 PROCEDIMIENTO 
 
-A continuación, vamos a enseñar paso por paso la realización de una red IoT en el programa Packet Tracer. 
+Vamos a enseñar paso por paso la realización de una red IoT en el programa Packet Tracer. 
 
 3.2.1 CISCO PACKET TRACER 
 
@@ -91,7 +91,7 @@ Cisco Packet Tracer es una aplicación a través de la cual se puede realizar un
 ![image](https://user-images.githubusercontent.com/85181723/133824378-b2289259-0ed5-437d-81a9-0246d3350699.png)
 
 2.	A continuación, preparamos los materiales que vamos a utilizar para la generación de nuestra red IoT tales como un Servidor, un Access point wifi y una Tablet. 
-3.	
+	
 ![image](https://user-images.githubusercontent.com/85181723/133824427-d708f444-a213-4d25-ae19-e01f52d6a4b5.png)
 
 3.	Comenzamos con las respectivas modificaciones en el servidor, tales como quitar el proctocolo DHCP ya que un servidor no puede contar con direccioness ip dinamicas  si no estaticas. En  la siguiente imagen se muestra la ip del servidor. 
@@ -118,8 +118,6 @@ En el caso del accespoint procedemos a la generación de una red wifi con su cla
 
 4. ANALISIS DE RESULTADOS 
 
-Para cada uno de los circuitos anteriores, elabore una tabla con los resultados de las diferentes mediciones de voltaje realizadas con el osciloscopio y multímetro. Compare y comente los resultados obtenidos tomando en cuenta las distintas frecuencias utilizadas. 
-
 4.1. VENTAJAS
 
 •	Costo bajo: Protocolo de acceso gratuito, tarifas de suscripción baratas y tecnología fácil de integrar. 
@@ -138,38 +136,41 @@ Para cada uno de los circuitos anteriores, elabore una tabla con los resultados 
 
 •	Ruta directa: Dado que todos los puntos Wifi están conectados entre ellos, los datos pueden tomar distintos caminos para llegar a su destino. El sistema siempre escogerá el mejor camino para ir del punto A al punto B.
 
-5. PREGUNTAS 
+4.2. PREGUNTAS 
 
-5.1. ¿Qué es una red en malla?
+4.2.1. ¿Qué es una red en malla?
 Una red en malla es un grupo de dispositivos que actúan como una sola red Wi Fi, es decir, que habrá varias fuentes de Wi Fi en tu casa en lugar de un solo router. Estas fuentes de Wi-Fi adicionales se denominan puntos Wifi.
 
-5.2. ¿En qué se diferencia de una red Wi‑Fi tradicional?
+4.2.2. ¿En qué se diferencia de una red Wi‑Fi tradicional?
 En una red Wi Fi tradicional, tus dispositivos se conectan a un solo router. De este modo, toda la comunicación pasa por ese router. Cuanto más lejos estás del router, más débil es la señal.
 
-5.3. ¿Qué conexión se debe usar para diferentes dispositivos? 
+4.2.3. ¿Qué conexión se debe usar para diferentes dispositivos? 
 Si se usan dispositivos conectados a una velocidad de 1 Mbps cada uno. Se necesita una conexión a Internet que tenga el ancho de banda suficiente. Además, los dispositivos conectados deben encontrarse dentro de las áreas de cobertura Wi Fi.
 
-5.4. ¿Qué obstáculos impiden una buena señal de Wi-fi?
+4.2.4. ¿Qué obstáculos impiden una buena señal de Wi-fi?
  El tamaño, los materiales y la distribución de la casa pueden afectar a la transmisión de la señal Wi Fi. Es posible que las casas más grandes, con paredes más gruesas o con una disposición estrecha y alargada necesiten más puntos de acceso Wifi para disponer de una cobertura completa. 
- 
-6. VIDEO DE LA PRÁCTICA
+
+5. VIDEO DE LA PRÁCTICA
 https://youtu.be/IMmL_uUJIu4  
 
-7. CONCLUSIONES 
+6. CONCLUSIONES 
+
 •	En la actualidad aparecen cada día más objetos inteligentes con la capacidad de comunicarse entre sí, normalmente con el objetivo de resolver una tarea o actividad. Por lo que se ha vuelto una tendencia el sistema conocido como Internet of Things. 
 
 •	La generación de nuevas tecnologías obliga a los países del mundo a tomar acción sobre los sistemas que integran y se comunican, con diferentes protocolos, características técnicas, servicios, etc. 
 
 •	El fin principal al desarrollar esta tecnología es que los usuarios no expertos en el dominio sean capaces de desarrollar de forma rápida aplicaciones que integren la funcionalidad de varios de estos dispositivos. 
 
-8. RECOMENDACIONES
+7. RECOMENDACIONES
+
 •	La intensidad y la velocidad de la señal también dependen de tu proveedor de Internet.
 
 •	Hacer la conexión en las diferentes estructuras, permitirán una correcta distribución de la señal Wi-fi para el correcto funcionamiento de los dispositivos interconectados.
 
 •	Si el router o el punto Wifi principal pierde la conexión, la perderá toda la red. En una red en malla, si un punto Wifi deja de funcionar, la comunicación se desvía a otro por lo cual se debe verificar su conexión correcta para evitar problemas a futuro. 
 
-9. BIBLIOGRAFÍA
+8. BIBLIOGRAFÍA
+
 Cama-Pinto, A., De la Hoz, E., & Cama-Pinto, D. (2012). Las redes de sensores      inalámbricos y el internet de las cosas. Inge Cuc.
 
 González García, C. (2013). MIDGAR: Plataforma para la generación dinámica de   aplicaciones distribuidas basadas en la integración de redes de sensores y dispositivos electrónicos IoT.
