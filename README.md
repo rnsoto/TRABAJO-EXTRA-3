@@ -1,17 +1,29 @@
 # TRABAJO-EXTRA-3
+
 INFORME DE TRABAJO ADICIONAL
+
 Trabajo Adicional
+
 UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
-DEPARTAMENTO DE ELÉCTRICA Y ELECTRÓNICA 
+
+#DEPARTAMENTO DE ELÉCTRICA Y ELECTRÓNICA
+
 FUNDAMENTOS DE CIRCUITOS ELÉCTRICOS 
+
 Trabajo Adicional
+
 Integrante: Nicolás Soto
+
 NRC: 5416
+
 Fecha: 14/09/2021
+
 Informe de Trabajo adicional.
+
 REDES IoT (Internet of things)
 
 1.OBJETIVO 
+
 A continuación, vamos a definir los objetivos planteados en el informe, de acuerdo con los temas sobre el trabajo adicional:
 • Adaptar fácilmente una red hiperconectada que combine datos de IoT con análisis contextuales habilitados para redes.
 • Reconocer que durante un incidente se necesita información de seguridad en tiempo real que se puede enviar a sus dispositivos móviles y los servicios de emergencias que necesitan comunicarse con las personas que están en peligro.
@@ -19,21 +31,26 @@ A continuación, vamos a definir los objetivos planteados en el informe, de acue
 •La realización de esta práctica le permitirá al estudiante fortalecer y aplicar los conocimientos teóricos de red en malla.
 
 2. MARCO TEÓRICO 
+
 INTERNET DE LAS COSAS
 
 En la investigación se conoce el origen de este término que aparece en el año 1999 por Kevin Asthon quien estaba realizando investigaciones en el campo RFID y dio a conocer esta idea en una conferencia. En 2005 la ITU comenzó a realizar un estudio sobre el tema y en 2009 este término se convertiría en el título de todo, por la conexión de las cosas y ejecución de redes dinámicas con conectividad desde cualquier momento y lugar, generando facilidades en todos los campos desde Salud, Smart home, Smart city, oficina, automóviles, logística, navegación, medio ambiente, farmacéutica, agricultura y ganadería entre otros, con uso de tecnologías basadas en radiofrecuencia como es el mismo RFID, redes inalámbricas de sensores como WSN, uso de redes de área personal, redes Wlan en conjunto con tecnologías como el uso de la nube, big data, desde luego la cantidad de dispositivos aumenta, así que de tal modo aparece el protocolo ipv6 con 128 bits a diferencia de ipv4 que carece de 32 bits, permitiendo así lograr más conectividad de dispositivos en las redes y hacia internet todo esto administrado por IANA, encargada de la coordinación mundial de los sistemas de direccionamiento del protocolo de internet.
 El Internet de las cosas (IoT) fue concebido en un mundo donde los dispositivos que lo conforman pueden ser identificados en el Internet y además están creciendo a un ritmo sumamente acelerado con nuevos dispositivos que se van conectando. Por lo cual las redes de sensores inalámbricos son importantes para incrementar la ubicación de las redes con dispositivos inteligentes de bajo costo y fácil implementación, con estándares como IEEE 802.15.4 en la capa física, 6LoWPAN en la capa de red, y RPL como protocolo de enrutamiento ( Cama, 2012), que se integran en el concepto de IoT para traer nuevas experiencias en las actividades de la vida diaria, como por ejemplo en aplicaciones para hogares y oficinas confortables, salud, vigilancia del medio ambiente y ciudades inteligentes. En el presente artículo se relacionará a la red de sensores inalámbricos con el Internet de las cosas a través de estándares y protocolos.
+
 2.1. REDES DE SENSORES INALÁMBRICAS (WSN) E INTERNET DE LAS COSAS (IoT)
 
 son dos áreas de estudio que comparten entre sí ser una infraestructura de red autónoma, en la cual se interconectan objetos para medir variables físicas y dar solución a problemas en una variedad de escenarios de aplicación, como logística, industria, construcciones inteligentes, seguridad, agricultura, entre otros. Esta semejanza suscita una ambigüedad en el uso que la comunidad académica hace de los términos, WSN e IoT, y hace borrosa la línea de dónde pertenecen las contribuciones que se realizan en cada una de estas áreas. En consecuencia, el objetivo de este artículo es analizar la relación, similitud y diferencias entre WSN e IoT en torno a cinco temas: conceptos, requisitos generales, arquitecturas, aplicaciones y tratamiento de datos. A pesar de que WSN e IoT tienen un origen en común, sus enfoques son diferentes en varios aspectos que permiten aclarar la ambigüedad suscita entre la comunidad académica.
 
-3. EXPLICACIÓN DEL PROCEDIMIENTO 
+3. EXPLICACIÓN DEL PROCEDIMIENTO
+  
 A continuación de manera práctica vamos a explicar el funcionamiento de una red en malla.
+
 3.1 MATERIAL Y EQUIPO REQUERIDO 
 
 ![image](https://user-images.githubusercontent.com/85181723/133823735-656849b0-6248-4d55-9908-d84e2e279b65.png)
 
 3.2 PROCEDIMIENTO 
+
 A continuación, vamos a enseñar paso por paso la realización de una red IoT en el programa Packet Tracer. 
 3.2.1 CISCO PACKET TRACER 
 Cisco Packet Tracer es una aplicación a través de la cual se puede realizar una gran variedad de funciones relacionadas con las redes, como diseñar y construir una red desde cero, trabajar sobre proyectos preconstruidos (incluye una gran variedad de ejemplos interesantes), probar nuevos diseños y topologías de red, probar cambios en la red antes de aplicarlos a la misma, examinar el flujo de datos a través de una red, hacer simulaciones de Internet of things (internet de las cosas) o preparar exámenes de certificación en redes.
@@ -64,6 +81,7 @@ Cisco Packet Tracer es una aplicación a través de la cual se puede realizar un
 ![image](https://user-images.githubusercontent.com/85181723/133824378-b2289259-0ed5-437d-81a9-0246d3350699.png)
 
 2.	A continuación, preparamos los materiales que vamos a utilizar para la generación de nuestra red IoT tales como un Servidor, un Access point wifi y una Tablet. 
+3.	
 ![image](https://user-images.githubusercontent.com/85181723/133824427-d708f444-a213-4d25-ae19-e01f52d6a4b5.png)
 
 3.	Comenzamos con las respectivas modificaciones en el servidor, tales como quitar el proctocolo DHCP ya que un servidor no puede contar con direccioness ip dinamicas  si no estaticas. En  la siguiente imagen se muestra la ip del servidor. 
